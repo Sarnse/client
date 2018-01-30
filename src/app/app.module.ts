@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { ClientComponent } from './client/client.component';
@@ -12,7 +12,7 @@ import { ClientComponent } from './client/client.component';
     ClientComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,FormsModule,ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
